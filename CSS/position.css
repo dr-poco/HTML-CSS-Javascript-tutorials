@@ -1,0 +1,21 @@
+div{
+    position: relative;
+    border: 4px solid #000000;
+    height: 300px;
+    width: 400px;
+}
+
+p{
+    border: 3px solid #ff0000;
+    width: 50%;
+    position: static;
+    top: 100px;
+    left: 100px;
+
+    /* The code below removes default browser styling */    
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+}

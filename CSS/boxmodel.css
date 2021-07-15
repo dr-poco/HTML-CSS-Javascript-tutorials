@@ -1,0 +1,21 @@
+h2{
+    text-align: center;
+}
+
+div{
+    background-color: rgb(145, 106, 182);
+    color: #1b1a1a;
+    box-sizing: border-box;
+    width: 40%;
+    display: inline-block;
+    height: 200px;
+    margin: 5px;
+    border: 20px solid #000000;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+section{
+    margin-top: 50px;
+}

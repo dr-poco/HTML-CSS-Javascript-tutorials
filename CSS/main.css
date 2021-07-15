@@ -1,0 +1,131 @@
+body{
+    background: #b8b7b5;
+    font-size: 125%;
+    /* background-image: url("images/karthi.jpg"); */
+  
+
+}
+
+header{
+    background: #9e9332;
+    text-align: center;
+    padding: 4%;
+    border: ridge 10px #9e9332;
+    margin-bottom: 4%;
+    
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: serif, Arial, Helvetica, sans-serif;
+   
+}
+.half{
+    width: 45%;
+    display:inline-block;
+    float:left;
+    margin-right: 2%;
+    margin-bottom: 3%;
+}
+
+.whole{
+    clear: both;
+}
+
+nav{
+    font-variant: small-caps;
+    font-family: Arial, "Times New Roman", serif;
+    font-size: 150%;
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    background: #b6351e;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+summary{
+    font-style: normal;
+
+}
+
+details{
+    font-style: italic;
+
+}
+
+footer{
+    background: #f7afaf;
+    padding:2%;
+    clear:both;
+    border: 2px, 10px, 3px;
+    /* border: dashed 3px #9e9332; */
+    
+}
+
+img{
+    width:5%;
+    
+}
+
+/* styling links */
+/* precedence rules */
+/* a:hover MUST come after a:link and a:visited */
+/* a:active MUST come after a:hover */
+nav a{
+    display: inline block;
+    font-weight: bold;
+    color: #ffffff;
+    background: #1f215f;
+    width: 200px;
+    text-align:center;
+    padding: 4px;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: dashed 3px #36375c;
+}
+
+a:hover{
+    background: #b3b3b3;    /* Hovering */
+    color: #0f0f0f;
+}
+
+a:focus{
+    background: #b3b3b3;  /* while tabbing in the site */
+    color: #0f0f0f;
+}
+
+a:active{
+    border: 3px solid #0f0f0f; /* While clicking */
+}
+
+header, footer{
+    background: -moz-linear-gradient(#301142 0%,#71eeee 100%);
+    background: -o-linear-gradient(#301142 0%,#71eeee 100%);
+    background: -webkit-linear-gradient(#301142 0%,#71eeee 100%);
+    background: linear-gradient(#301142 0%,#71eeee 100%);
+}
+
+
+p{
+    color:red;
+    padding: 10px 5px;
+    background: azure;
+}
+
+.fancy{
+    font-family: cursive;
+    background: chocolate;
+    color:green;
+}
+
+/* display : block, inline, inline-block, none */
+/* span,div,paragraph uses float : left, right ; clear : left, right, both */
+/* display: table, table-cell */
+/* Box model, padding, margin, border, float */
+/* Border styles : none, dotted, dashed, solid, double, ridge, groove, inset, outset, hidden */
+/* My fav border styles: ridge, groove, inset, outset */
+/* https://chrispederick.com/work/web-developer/ */
+/* https://css3generator.com/ */
+/* search for developer tools in google */

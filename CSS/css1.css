@@ -1,0 +1,230 @@
+
+body{
+    
+    background: #b2b2b2 url(images/n.jpg) 0px 0px repeat-y;
+  
+}
+
+
+
+
+
+
+p{
+    color: black !important;
+    background-color:lightpink !important;
+}
+h1{
+    font-family:Courier, Impact, Arial;
+    font-variant: small-caps;
+    font-size: xx-large;
+    text-align: justify left;
+    line-height: 200%;
+    color:whitesmoke;
+    background-color: transparent;
+}
+
+p{
+    color: blue;
+    background: coral;
+}
+
+div{
+    color: #000000;
+    background: #2db34a;
+    line-height: 200px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 6px;
+    transition-property: color, width, background, border-radius;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    transition-delay: .2s;
+    transition: background .2s linear, border-radius 1s ease-in 1s;
+}
+
+div:hover{
+    color: #ffffff;
+    width: 350px;
+    background: #2d31b3;
+    border-radius: 50%;
+}
+
+div:active{
+    color: #000000;
+    width: 150px;
+    background: #f0f0f5;
+    border-radius: 50%;
+}
+
+/* display : block, inline, inline-block, none */
+/* span,div,paragraph uses float : left, right ; clear : left, right, both */
+/* display: table, table-cell */
+/* Box model, padding, margin, border, float */
+/* Border styles : none, dotted, dashed, solid, double, ridge, groove, inset, outset, hidden */
+/* My fav border styles: ridge, groove, inset, outset */
+/* https://chrispederick.com/work/web-developer/ */
+/* https://css3generator.com/ */
+/* search for developer tools in google */
+
+/* rule " !important " should be used in case of important style, if we use that selector more than once. */
+/* use list-style-type and list-style-image for styling list items */                                                                                                                                                                                                                                                                                                                     
+
+/* 
+    STYLING LINKS: 
+
+   Descendant selectors (nav a) = style all the anchor links inside a nav tag
+   child selectors (nav > a) = more constraining The anchor elements must be a child of the nav, no intermediate tags eg.paragraph
+   Adjacent sibling (h1 + ol) = elements must be at same level and follow each other 
+   
+   # id selector
+   
+   <img src="logo.jpg" id="mainlogo" alt="logo"/>
+   
+   #mainlogo{
+        **styles**
+    }
+
+   
+   .class selector
+   
+   <img src="cat.jpg" class="thumb" alt="joe"/>
+   <img src="mat.jpg" class="thumb" alt="joe"/>
+   <img src="bat.jpg" class="thumb" alt="joe"/>
+   
+   .thumb{
+        **styles**
+   }
+   
+   classes can be used multiple times.
+   but id should be unique.
+
+   p.main = paragraphs using main class
+   
+   header img.special = paragraph inside header that use special class.
+   
+   p, h1, main, .special{ ....rules to apply all of them...}
+   review: what happens when there are multiple rules for the same selector?
+   when there are conflicts, use the one processed most recently.
+   unless a rule has " !important "
+
+   ^ : match the beggining exactly
+   a[href='http://umich]
+   
+   $ : match the end exactly
+   a[href=".png"]
+
+   * : wildcard
+   a[href='umich']
+
+   ## Browser capabilities
+
+   browser prefixes
+
+   -webkit-  = Android, Chrome, ios, safari
+   -moz-  = Firefox
+   -ms-  = internet explorer
+   -o-  = Opera
+
+   column-count
+   border-radius
+   gradient
+
+
+   http://caniuse.com/
+
+   TYPES OF PSEUDO-CLASSES
+
+   Link:
+
+   :link, :visited
+
+   User Action:
+
+   :hover, :active, :focus
+
+   Focus(interfaces):
+
+   :enabled, :checked, :disabled
+
+   Structural/Positional:
+
+   :first-child, :last-child, :nth-child(), :only-child
+   :first-of-type, :last-of-type, :only-of-type
+
+   TYPES OF PSEUDO-ELEMENTS:
+
+   Textual:
+
+   ::first-letter, ::first-line
+
+   Positional/Generated:
+
+   :before, :after
+
+   Fragments
+
+   ::selection
+
+
+
+
+
+   Transitions:
+
+   transition-property(size, color, positioin); 
+   transition-duration
+   transition-timing(linear)
+   transition-delay
+
+
+   TRANSFORMATIONS
+
+   2D Transform options
+
+   > translate (x, y)
+   > rotate (30deg)
+   > scale (width, height)
+   > skew  (30deg, 90deg)
+   > matrix(all of the 2D transforms into one command)
+
+   3D Transform options
+
+   > transform-rotateX
+   > transform-rotateY
+   > transform-rotateZ
+   > transform:rotate3d(x, y, z)
+
+
+   POSITIONING ELEMENTS:
+
+   > STATIC
+   > RELATIVE
+   > ABSOLUTE
+   > FIXED
+
+   STATIC:
+
+   > has default value
+   > not affected by properties top/bottom/right/left
+
+   RELATIVE:
+
+   > Take the static, but add offsets.
+   > new positioning does not affect anyother element.
+
+   ABSOLUTE:
+
+   > other elements behave as if element does not exist
+   > can end up on top of another.
+
+   FIXED:
+
+   > will not move, even if window is scrolled.
+   > Think of popup boxes that won't go away
+   > or a navigation bar that is always visible on the top.
+
+
+
+   */

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array!</title>
+    <script>
+        var fruits = ['Banana', 'Orange', 'Grapes', 'Apple'];
+
+        function loadFruits(){
+            document.getElementById('fruits').innerHTML = fruits;
+        }
+
+        function myFunction(){
+            var fruit = prompt("Type your favorite fruit: ");
+            fruits[fruits.length] = fruit;
+            document.getElementById('fruits').innerHTML = fruits;
+        }
+    </script>
+</head>
+<body onload = "loadFruits()">
+    <button onclick = "myFunction()">Add Your Favorites!</button>
+    <p id = "fruits"></p>
+
+</body>
+</html>

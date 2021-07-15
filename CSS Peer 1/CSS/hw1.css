@@ -1,0 +1,141 @@
+body{
+    background: #a7a69d;
+    margin: 2px;
+   
+}
+
+h1{
+    font-family: Helvetica,sans-serif;
+    font-size: 250%;
+    color: #f7f0f0;
+    text-align: center;
+    font-variant: small-caps;
+    margin-top: 10px;
+}
+header{
+    background: #362c6e;
+    background-image: url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+    padding: 30px;
+}
+
+
+
+.left{
+    width: 25%;
+    padding: 30px;
+    background: #9c9e1b;
+}
+
+aside{
+    background: #777613;
+    float: left;
+    height: 600px;
+}
+
+h2{
+    font-family:  serif;
+    font-size: 160%;
+    font-variant: inherits;
+    color: #1b124d;
+
+}
+/* section{
+    text-align: left;
+    float: left;
+}*/
+
+p{
+    color: #000000;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img{
+    
+    width: 270px;   
+    display: block;
+    margin: 0 auto;
+    margin-top: 14px;
+    border: groove #f7f0f0 4px;
+    
+}
+
+.right{
+    text-align: justify;
+    margin: auto;
+    font-size: 20px;
+
+}
+
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: #070707;
+    background: #f7f0f0;
+    text-align: center; 
+    display:inline-block;
+    width: 20%;
+    padding: 10px;
+    margin:0 auto;
+    text-decoration: none;
+    border-radius: 3px;
+  
+}
+
+a:hover{
+    background: #1b046e;    /* Hovering */
+    color: #fffdfd;
+}
+
+a:focus{
+    background: #1b046e;  /* while tabbing in the site */
+    color: #fffdfd;
+}
+
+.active{
+    color:rgb(255, 255, 255);
+    background: rgba(15, 62, 105, 0.6);
+}
+
+table{
+    color: #000000;
+    border-spacing: 0;
+    border: 3px groove rgb(240, 238, 238);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+th{
+	text-align: center;
+    background: #16470c;
+    color: rgb(255, 255, 255);
+    margin: 2px;
+    padding: 4px;
+    border: solid .5px #ffffff;
+    font-family: serif, Arial;
+}
+
+th:first-child{
+    text-align: left;
+    margin-right: 2px;
+}
+td{
+    width: 250px;
+    line-height: 30px;
+    background: linear-gradient(#4ee467 0%, #67ee94 100%);
+    text-align: center;
+    padding: 4px;
+    opacity: .8;
+    border: solid .5px #ffffff;
+}
+
+td:first-child{
+    width: 450px;
+    text-align: left;
+}
+
+tr:hover>td{
+    opacity: 2;
+}
+
